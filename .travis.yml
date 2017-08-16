@@ -10,6 +10,8 @@ before_install:
    - gem list selenium-webdriver rspec
    - docker build -t selenium/standalone-chrome .
    - docker run -d -p 4444:4444 selenium/standalone-chrome
+   - docker images
+   - docker ps
 
 script:
    - sudo ruby browser_test.rb
