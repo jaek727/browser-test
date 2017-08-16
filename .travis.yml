@@ -12,3 +12,6 @@ before_install:
    - docker run -d -p 4444:4444 selenium/standalone-chrome
    - docker images
    - docker ps
+
+script:
+   - ruby browser_test.rb
