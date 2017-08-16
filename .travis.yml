@@ -5,6 +5,7 @@ services:
 
 before_install:
    - sudo gem update –system
+   - sudo gem install selenium-webdriver rspec
    - docker build -t selenium/standalone-chrome .
    - docker run -d -p 4444:4444 selenium/standalone-chrome
 
