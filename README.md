@@ -1,4 +1,4 @@
-# walmart-browser-test
+# browser-test
 
 * This repostory contains a selenium browser test for Walmart.com home page title information.
 
