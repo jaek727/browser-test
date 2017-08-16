@@ -14,4 +14,4 @@ before_install:
    - docker ps
 
 script:
-   - ruby browser_test.rb
+   - bundle exec ruby browser_test.rb
