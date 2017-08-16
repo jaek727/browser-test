@@ -12,4 +12,4 @@ before_install:
    - docker run -d -p 4444:4444 selenium/standalone-chrome
 
 script:
-   - ruby browser_test.rb
+   - sudo ruby browser_test.rb
