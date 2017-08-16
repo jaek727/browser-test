@@ -3,7 +3,7 @@
 # PLEASE UPDATE Dockerfile.txt INSTEAD OF THIS FILE
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 FROM selenium/node-chrome
-LABEL authors=SeleniumHQ, Jae Kim
+LABEL authors=SeleniumHQ
 
 USER seluser
 
