@@ -6,6 +6,8 @@ services:
 before_install:
    - sudo gem update –system
    - bundle install
+   - gem list
+   - gem list selenium-webdriver
    - docker build -t selenium/standalone-chrome .
    - docker run -d -p 4444:4444 selenium/standalone-chrome
 
